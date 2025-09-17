@@ -8,7 +8,7 @@ minikube start
 echo "📂 Creando namespace 'treasure-hunt'..."
 kubectl create namespace treasure-hunt || echo "Namespace ya existe, continuando..."
 
-PERSONAS=( "bayron" "alejandro" )
+PERSONAS=( "bayron" "alejandro" "camilo" "dianam" "elkin" "juandavid" "juanMV" "julianp" "santiago" "yisus" )
 
 echo "📄 Aplicando secretos y despliegues..."
 for nombre in "${PERSONAS[@]}"; do
